@@ -10,5 +10,7 @@ public class Tela01Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela01);
+
+        getSupportActionBar().hide(); //REMOVER ACTIONBAR
     }
 }

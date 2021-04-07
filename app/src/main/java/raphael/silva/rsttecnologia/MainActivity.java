@@ -59,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
 
          */
 
+        getSupportActionBar().hide(); //REMOVER ACTIONBAR
+
         btApp01 = findViewById(R.id.btApp01);
         btApp01.setOnClickListener(new View.OnClickListener() {
             @Override
